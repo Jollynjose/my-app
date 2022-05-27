@@ -3,7 +3,7 @@ import Link from 'next/Link';
 import { NavBar } from '../components/NavBar/NavBar';
 import Description from '../components/Description';
 import { MainLayout } from '../components/layouts/MainLayout';
-import DarkLayout from '../components/layouts/DarkLayout';
+import { DarkLayout } from '../components/layouts/DarkLayout';
 
 export default function about() {
   return (

@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-function DarkLayout({ children }) {
+export const DarkLayout: FC = ({ children }) => {
   return (
     <div
       style={{
@@ -13,6 +13,4 @@ function DarkLayout({ children }) {
       {children}
     </div>
   );
-}
-
-export default DarkLayout;
+};
