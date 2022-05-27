@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
+import { ReactProps } from './MainLayout';
 
-export const DarkLayout: FC = ({ children }) => {
+export const DarkLayout: FC<ReactProps> = ({ children }) => {
   return (
     <div
       style={{
