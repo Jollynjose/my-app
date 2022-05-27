@@ -1,8 +1,7 @@
-import Link from 'next/Link';
 import { MainLayout } from '../components/layouts/MainLayout';
 import { DarkLayout } from '../components/layouts/DarkLayout';
 import { ReactElement } from 'react';
-
+import Link from 'next/link';
 export default function about() {
   return (
     <>

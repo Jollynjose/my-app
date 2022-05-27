@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Link from 'next/Link';
+import Link from 'next/link';
 import { NavBar } from '../../components/NavBar/NavBar';
 import Description from '../../components/Description';
 import { MainLayout } from '../../components/layouts/MainLayout';
